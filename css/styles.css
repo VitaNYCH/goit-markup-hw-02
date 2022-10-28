@@ -1,0 +1,55 @@
+/*основний колір #212121*/
+/*другорядний колір #757575*/
+/*білий #FFFFFF*/
+/*акцент #2196F3*/
+/*основний bcg колір #F5F5F5*/
+
+:root {
+    --primary-text-color:#212121;
+    --secondary-text-color:#757575;
+    --accent-color:#2196F3;
+}
+
+/*header*/
+.page {
+    color:var(--primary-text-color);
+    background-color: #F5F5F5;
+}
+
+.logo {
+   color:#000000;  
+}
+.web{
+    color:var(--accent-color);
+}
+.logo:hover{
+   color: var(--accent-color);
+}
+.logo:focus{
+    color:var(--accent-color);
+}
+.site-nav .link{
+    color:var(--primary-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+/*hero*/
+
+/*main*/
+.section-title{
+    color:var(--primary-text-color) ;
+}
+/*features*/
+.feature-list .title {
+    color:var(--primary-text-color);
+}
+/*work*/
+.work-list .title{
+    color: var(--primary-text-color);
+}
+/*team*/
+.team-list .title{
+    color: var(--primary-text-color);
+}
