@@ -31,12 +31,19 @@
 .site-nav .link{
     color:var(--primary-text-color);
 }
+.site-nav .link.current{
+    color: var(--accent-color);
+}
 .site-nav .link:hover, 
 .site-nav .link:focus {
     color: var(--accent-color);
 }
-.contacts .contact-item{
+.contacts .contact-item {
     color: var(--secondary-text-color);
+}
+.contacts .contact-item:hover,
+.contacts .contact-item:focus{
+    color:var(--accent-color);
 }
 
 /*main*/
@@ -63,4 +70,37 @@
 }
 .list-member .text{
     color: var(--secondary-text-color);
+}
+/*footer*/
+.end-page{
+    background-color:#2F303A;
+}
+.postoffice{
+    color:#FFFFFF ;
+}
+.email,
+.number {
+color:#FFFFFF ;
+}
+.email:hover,
+.email:focus{
+   color: var(--accent-color); 
+}
+.number:hover,
+.number:focus{
+    color: var(--accent-color);
+}
+
+/*portfolio*/
+.button {
+    color: var(--primary-text-color);
+    background-color:#F5F4FA;
+}
+.button.primary{
+    color: #FFFFFF;
+    background-color:var(--accent-color);
+}
+.button.secondary{
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
 }
