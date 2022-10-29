@@ -35,15 +35,20 @@
 .site-nav .link:focus {
     color: var(--accent-color);
 }
-/*hero*/
 
 /*main*/
+
+/*hero*/
+
 .section-title{
     color:var(--primary-text-color) ;
 }
 /*features*/
 .feature-list .title {
     color:var(--primary-text-color);
+}
+.list-item .text{
+    color: var(--secondary-text-color);
 }
 /*work*/
 .work-list .title{
@@ -52,4 +57,7 @@
 /*team*/
 .team-list .title{
     color: var(--primary-text-color);
+}
+.list-member .text{
+    color: var(--secondary-text-color);
 }
