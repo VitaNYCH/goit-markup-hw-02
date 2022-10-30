@@ -8,12 +8,21 @@
     --primary-text-color:#212121;
     --secondary-text-color:#757575;
     --accent-color:#2196F3;
+    --primary-bcground-color:#F5F5F5;
+    --bcground-accent-color: #2196F3;
+    --primary-white-color:#FFFFFF;
+    --secondary-white-color:#F5F4FA;
+    --bcground-secondary-white-color: #F5F4FA;
 }
 
 /*header*/
 .page {
     color:var(--primary-text-color);
-    background-color: #F5F5F5;
+    background-color: var(--primary-bcground-color);
+    font-family: 'Roboto';
+}
+.page-header{
+    background-color:#FFFFFF;
 }
 
 .logo {
@@ -76,11 +85,11 @@
     background-color:#2F303A;
 }
 .post-office{
-    color:#FFFFFF ;
+    color:var(--primary-white-color);
 }
 .email,
 .number {
-color:#FFFFFF ;
+color:var(--primary-white-color) ;
 }
 .email:hover,
 .email:focus{
@@ -94,13 +103,18 @@ color:#FFFFFF ;
 /*Styles of portfolio*/
 .button {
     color: var(--primary-text-color);
-    background-color:#F5F4FA;
+    background-color:var(--secondary-white-color);
+}
+.button:hover,
+.button:focus{
+    color: var(--primary-white-color);
+    background-color:var(--bcground-accent-color);
 }
 .button.primary{
-    color: #FFFFFF;
-    background-color:var(--accent-color);
+    color:var(--primary-white-color);
+    background-color:var(--bcground-accent-color);
 }
 .button.secondary{
     color: var(--primary-text-color);
-    background-color: #F5F4FA;
+    background-color:var(--bcground-secondary-white-color);
 }
