@@ -16,10 +16,14 @@
 }
 
 /*header*/
+.logo, .web {
+    font-family: 'Raleway', sans-serif;
+}
+/*body*/
 .page {
     color:var(--primary-text-color);
     background-color: var(--primary-bcground-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 .page-header{
     background-color:#FFFFFF;
@@ -76,6 +80,9 @@
 /*team*/
 .team-list .title{
     color: var(--primary-text-color);
+}
+.section-team{
+    background-color: var(--bcground-secondary-white-color);
 }
 .list-member .text{
     color: var(--secondary-text-color);
