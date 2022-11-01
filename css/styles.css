@@ -31,11 +31,8 @@
     color: var(--accent-color);
 }
 
-.logo:hover {
-    color: var(--accent-color);
-}
-
-.logo:focus {
+.logo:hover,
+.logo:focus{
     color: var(--accent-color);
 }
 
@@ -89,15 +86,16 @@
 }
 .hero-title{
     color: #FFFFFF;
+    text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
     text-align: center;
 }
 
 .section-title{
     color:var(--primary-text-color) ;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -108,13 +106,11 @@
 /*features*/
 .feature-list .title {
     color:var(--primary-text-color);
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
 }
 .list-item .text{
     color: var(--secondary-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -137,7 +133,6 @@
 }
 .list-member .text{
     color: var(--secondary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
 }
@@ -148,15 +143,20 @@
 .post-office{
     color:var(--primary-white-color);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
+.color-footer{
+    color: var(--primary-white-color);
+}
+.color-footer:hover,
+.color-footer:focus {
+    color: var(--accent-color);
+}
 .email,
 .number {
-    color:var(--primary-white-color) ;
+    color:#ACACB0 ;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
@@ -174,10 +174,13 @@
 .button {
     color: var(--primary-text-color);
     background-color:var(--secondary-white-color);
+    font-family: 'Roboto';
+    font-style: normal;
     cursor: pointer;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.88;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
 }
 .button:hover,
 .button:focus{
@@ -187,9 +190,21 @@
 .button.primary{
     color:var(--primary-white-color);
     background-color:var(--bcground-accent-color);
-   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 .button.secondary{
     color: var(--primary-text-color);
     background-color:var(--bcground-secondary-white-color);
+}
+.section-port-title{
+    color: var(--primary-text-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
